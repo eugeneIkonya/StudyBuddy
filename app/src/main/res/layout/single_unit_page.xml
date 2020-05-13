@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singleUnitActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="117dp"
+        android:layout_height="44dp"
+        android:text="Study time"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="117dp"
+        android:layout_height="44dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="637dp"
+        tools:text="Attendance" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="235dp"
+        android:layout_height="69dp"
+        android:text="Study Progress: How much the student has learnt using the app"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New file"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="154dp"
+        android:layout_height="20dp"
+        android:text="Notes"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="150dp"
+        android:layout_height="21dp"
+        android:text="Unit Tests Progress"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="117dp"
+        android:layout_height="44dp"
+        android:text="Assignments"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="117dp"
+        android:layout_height="44dp"
+        android:text="Project Process"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="545dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

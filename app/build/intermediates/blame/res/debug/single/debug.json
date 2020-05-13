@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_home_page.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/home_page.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_flash_cards_page.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/flash_cards_page.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_units_page.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/units_page.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_study_progress_page.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/study_progress_page.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_assignments_activity.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/assignments_activity.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_project_page.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/project_page.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_single_unit_page.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/single_unit_page.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_signup_page.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/signup_page.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_timetable_page.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/timetable_page.xml"
+    },
+    {
+        "merged": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/build/intermediates/res/merged/debug/layout_welcome_page.xml.flat",
+        "source": "/Users/eugeneikonya/AndroidStudioProjects/StudyBuddy/app/src/main/res/layout/welcome_page.xml"
+    }
+]
