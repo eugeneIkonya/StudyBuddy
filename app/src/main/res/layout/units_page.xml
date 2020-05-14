@@ -18,7 +18,7 @@
         android:id="@+id/textView3"
         android:layout_width="232dp"
         android:layout_height="67dp"
-        android:text="Displays the units taken by the students"
+        android:text="Displays the units taken by the students :Makena"
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="30dp" />
 
@@ -35,7 +35,7 @@
         android:layout_width="230dp"
         android:layout_height="39dp"
         android:text="Mobile APP Dev"
-        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="132dp" />
 
     <TextView
@@ -43,6 +43,6 @@
         android:layout_width="185dp"
         android:layout_height="40dp"
         android:text="Internet App Dev"
-        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="217dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,16 +11,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="login"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="272dp" />
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="320dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="signup"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="272dp" />
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="320dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -29,4 +29,12 @@
         app:srcCompat="@drawable/ic_launcher_foreground"
         tools:layout_editor_absoluteX="86dp"
         tools:layout_editor_absoluteY="82dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="212dp"
+        android:layout_height="46dp"
+        android:text="Remmy"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="507dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

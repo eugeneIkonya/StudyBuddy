@@ -11,15 +11,15 @@
         android:layout_width="168dp"
         android:layout_height="139dp"
         app:srcCompat="@android:drawable/ic_menu_crop"
-        tools:layout_editor_absoluteX="-9dp"
-        tools:layout_editor_absoluteY="4dp" />
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="136dp"
         android:layout_height="44dp"
         android:text="Student Name"
-        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteX="200dp"
         tools:layout_editor_absoluteY="4dp" />
 
     <TextView
@@ -27,8 +27,8 @@
         android:layout_width="114dp"
         android:layout_height="46dp"
         android:text="Adm no"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="58dp" />
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="67dp" />
 
     <Button
         android:id="@+id/button3"
@@ -36,39 +36,39 @@
         android:layout_height="wrap_content"
         android:text="my units"
         tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="205dp" />
+        tools:layout_editor_absoluteY="262dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Timetable"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="266dp" />
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="329dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Assignments"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="399dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="329dp" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="projects"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="465dp" />
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="400dp" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reminders"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="329dp" />
 
     <Button
         android:id="@+id/button8"
@@ -76,22 +76,22 @@
         android:layout_height="wrap_content"
         android:text="Marked flash cards"
         tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="529dp" />
+        tools:layout_editor_absoluteY="465dp" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Study Progress"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="604dp" />
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="530dp" />
 
     <Button
         android:id="@+id/button15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Class"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="667dp" />
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="594dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,11 +8,11 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="192dp"
-        android:layout_height="30dp"
-        android:text="Reminders"
+        android:layout_width="342dp"
+        android:layout_height="168dp"
+        android:text="Creating updating removing "
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="179dp" />
 
     <Button
         android:id="@+id/button14"
@@ -21,4 +21,13 @@
         android:text="Add reminder"
         tools:layout_editor_absoluteX="38dp"
         tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="249dp"
+        android:layout_height="31dp"
+        android:text="Dutia"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="385dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
