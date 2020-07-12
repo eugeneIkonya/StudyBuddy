@@ -20,21 +20,20 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UnitsActivity extends AppCompatActivity {
-    private static final String UNIT_URL="http://192.168.1.5/MyApi/api.php";
+public class UnitActivity extends AppCompatActivity {
+    private static final String PRODUCT_URL="http://170.20.10.3/MyAPI/api.php";
     RecyclerView recyclerView;
-    UnitAdapter unitAdapter;
+    UnitAdapter adapter;
 
-    List<Unit> unitList;
+    List<Units> unitList;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_units);
-
-
-        unitList=new ArrayList<>();
+        setContentView(R.layout.activity_unit);
+        unitList= new ArrayList<>();
         recyclerView=(RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -43,42 +42,42 @@ public class UnitsActivity extends AppCompatActivity {
 
 
 
-    }
 
+    }
     private void loadUnits()
     {
-        StringRequest stringRequest=new StringRequest(Request.Method.GET, UNIT_URL, new Response.Listener<String>() {
+        StringRequest stringRequest= new StringRequest(Request.Method.GET, PRODUCT_URL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
-                    JSONArray units= new JSONArray(response);
-                    for(int i=0; i<units.length(); i++)
+                    JSONArray units=new JSONArray(response);
+                    for (int i=0;i<units.length();i++)
                     {
                         JSONObject unitObject=units.getJSONObject(i);
-
                         String unit_name=unitObject.getString("unit_name");
                         String lecturer=unitObject.getString("lecturer");
                         String lecturer_email=unitObject.getString("lecturer_email");
-                        int unit_progress=unitObject.getInt("unit_progress");
-                        String unit_objectives=unitObject.getString("unit_objectives");
+                        String unit_progress=unitObject.getString("unit_progress");
+                        String image=unitObject.getString("image");
 
-                        Unit unit=new Unit(unit_name ,lecturer ,lecturer_email ,unit_progress ,unit_objectives);
+                        Units unit =new Units(unit_name,lecturer,lecturer_email,unit_progress,image);
                         unitList.add(unit);
+
                     }
-                    unitAdapter=new UnitAdapter(UnitsActivity.this ,unitList);
-                    recyclerView.setAdapter(unitAdapter);
+                    adapter=new UnitAdapter(UnitActivity.this,unitList);
+                    recyclerView.setAdapter(adapter);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
+
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(UnitsActivity.this,error.getMessage(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(UnitActivity.this, error.getMessage(), Toast.LENGTH_SHORT).show();
 
             }
         });
-
         Volley.newRequestQueue(this).add(stringRequest);
     }
 }

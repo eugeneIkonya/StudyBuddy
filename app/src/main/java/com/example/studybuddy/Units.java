@@ -1,24 +1,22 @@
 package com.example.studybuddy;
 
-public class Unit {
+public class Units {
 
     private String unit_name;
     private String lecturer;
     private String lecturer_email;
-    private int unit_progress;
-    private String unit_objectives;
+    private String unit_progress;
+    private String image;
 
-    public Unit( String unit_name, String lecturer, String lecturer_email, int unit_progress, String unit_objectives) {
-
+    public Units(String unit_name, String lecturer, String lecturer_email, String unit_progress, String image) {
         this.unit_name = unit_name;
         this.lecturer = lecturer;
         this.lecturer_email = lecturer_email;
         this.unit_progress = unit_progress;
-        this.unit_objectives = unit_objectives;
+        this.image = image;
     }
 
-
-    public String getUnitName() {
+    public String getUnit_name() {
         return unit_name;
     }
 
@@ -26,15 +24,15 @@ public class Unit {
         return lecturer;
     }
 
-    public String getLecturerEmail() {
+    public String getLecturer_email() {
         return lecturer_email;
     }
 
-    public int getUnitProgress() {
+    public String getUnit_progress() {
         return unit_progress;
     }
 
-    public String getUnitObjectives() {
-        return unit_objectives;
+    public String getImage() {
+        return image;
     }
 }

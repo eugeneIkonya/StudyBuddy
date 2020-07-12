@@ -1,36 +1,34 @@
 <?php
 
-$host='localhost';
-$user='root';
-$pwd='';
-$db='studybuddy';
+define ('DB_HOST','localhost');
+define ('DB_USER','root');
+define ('DB_PASS','');
+define ('DB_NAME', 'studybuddy');
 
-$conn=mysqli_connect($host, $user, $pwd, $db);
 
-if(!$conn)
+$conn=new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+
+if(mysqli_connect_errno())
 {
-  die("Error in connecting to database: ".mysqli_connect_error());
-}
-$res=array();
+  die('Unable to connect to the database'.mysqli_connect_error());
 
-$sql_query="SELECT * FROM units";
-$result=mysqli_query($conn, $sql_query);
-
-if(mysqli_num_rows($result)>0)
-{
-    while($row=mysqli_fetch_assoc($result))
-    {
-        array_push($res, $row);
-    }
 }
 
-else
+$stmt=$conn->prepare("SELECT unit_name,lecturer,lecturer_email,unit_progress FROM units; ");
+$stmt->execute();
+$stmt->bind_result($unit_name,$lecturer,$lecturer_email,$unit_progress);
+$unit=array();
+while($stmt->fetch())
 {
-    $response['success']=0;
-    $response['message']='No data found';
+  $temp=array();
+  $temp['user_name']=$unit_name;
+  $temp['lecturer']=$lecturer;
+  $temp['lecturer_email']=$lecturer_email;
+  $temp['unit_progress']=$unit_progress;
+  array_push($unit,$temp);
 }
 
-echo json_encode($res);
-mysqli_close($conn);
+echo json_encode($unit);
 
-?>
+
+ ?>
